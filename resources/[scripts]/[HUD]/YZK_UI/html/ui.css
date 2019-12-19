@@ -1,0 +1,76 @@
+#voice {
+    position: absolute;
+    left: 12.095%;
+    bottom: 0.50%;
+    width: 3.290%;
+    height: 0.80%;
+    padding: 0;
+    border: 2px solid black;
+    float:left;
+    background:#545454;
+}
+
+#drunk {
+    position: absolute;
+    left: 8.565%;
+    bottom: 0.50%;
+    width: 3.290%;
+    height: 0.80%;
+    padding: 0;
+    border: 2px solid black;
+    float:left;
+    background:#545454;
+}
+
+
+#thirst {
+    position: absolute;
+    left: 5.025%;
+    bottom: 0.50%;
+    width: 3.290%;
+    height: 0.80%;
+    padding: 0;
+    border: 2px solid black;
+    float:left;
+    background:#545454;
+}
+
+#hunger {
+    position: absolute;
+    left: 1.500%;
+    bottom: 0.50%;
+    width: 3.290%;
+    height: 0.80%;
+    padding: 0;
+    border: 2px solid black;
+    float:left;
+    background:#545454;
+}
+
+#boxVoice, #boxThirst, #boxHunger , #boxDrunk {                                          
+    background: #73be73;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxHunger {
+    background: #1E88E5;         
+}
+#boxThirst {
+    background: rgb(203, 91, 255);   
+}
+
+#boxVoice {
+    background: rgb(255, 255, 255);
+}
+
+#boxDrunk {
+    background: #FB8C00;       
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
